@@ -1,0 +1,1 @@
+from gprMax._version import __version__

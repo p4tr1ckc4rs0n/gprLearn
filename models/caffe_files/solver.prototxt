@@ -1,0 +1,16 @@
+test_iter: 200
+test_interval: 10
+base_lr: 0.0001
+display: 1
+max_iter: 200
+lr_policy: "step"
+gamma: 0.1
+momentum: 0.9
+weight_decay: 0.0005
+stepsize: 139
+snapshot: 10
+solver_mode: CPU
+solver_type: SGD
+snapshot_after_train: true
+net: "/home/pwhc/skycap/gprlearn/models/caffe_files/conv_net_train.prototxt"
+snapshot_prefix: "/tmp/stage5/saved_models/snapshot"
