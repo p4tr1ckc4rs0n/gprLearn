@@ -111,7 +111,7 @@ END=2
 for i in $(seq $START $END);
 do
     #$PYTHON_SCRIPTS/gpr-gen-new.py -n $WITHOUT_MODEL_NAME -f 0.5 -x $i -o $STAGE1_OUTPUT_DIR -r n -fi $i
-    $PYTHON_SCRIPTS/gpr-gen-new.py -n $WITH_MODEL_NAME -f 0.5 -w 1 -o $STAGE1_OUTPUT_DIR -mt anti_tank -r n -fi $i
+    $PYTHON_SCRIPTS/gpr-gen-new.py -n $WITH_MODEL_NAME -f 0.5 -w 200 -o $STAGE1_OUTPUT_DIR -mt anti_tank -r n -fi $i
     break
 done
 
@@ -132,7 +132,7 @@ cd $GPRMAX
 # Call GPRMAX to process each input file
 for i in $( ls $STAGE1_OUTPUT_DIR/*.in ); do
     echo "Running model:" $i
-    python3 -m gprMax $i -n $number_iters
+    python3 -m gprMax $i -n $number_iters -gpu
 done
 
 #########################################################################################
