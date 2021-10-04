@@ -1,4 +1,4 @@
-## GprLearn Overview
+## gprLearn Overview
 
 24 May 2016
 
