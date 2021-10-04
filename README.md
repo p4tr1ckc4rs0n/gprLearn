@@ -1,6 +1,5 @@
 ## GprLearn Overview
 
-
 24 May 2016
 
 Patrick Carson
@@ -10,7 +9,7 @@ Ken Williams
 This file: README.txt
 REPO: https://bitbucket.org/dgorissen/gprlearn
 
-1. INTRODUCTION
+### 1. INTRODUCTION
 
 The code in this repository is to create a framework for automatically generating
 ground penetrating radar data for the training of a convolutional neural net in 
@@ -56,7 +55,7 @@ neural network used to classify and locate landmine signatures in the simulated 
 
 Install caffe according to these instructions http://hanzratech.in/2015/07/27/installing-caffe-on-ubuntu.html
 
-2. GETTING STARTED
+### 2. GETTING STARTED
 
 - git clone https://<your-username>@bitbucket.org/dgorissen/gprlearn.git
 
@@ -68,9 +67,9 @@ Prerequisites:
   - python3 for gprMax
   - caffe
 
-3. OVERVIEW OF PROJECT
+### 3. OVERVIEW OF PROJECT
 
-**Some files and directories have been left out since they were used for the old gprMax**
+**Some files and directories have been left out since they were used for the old version of gprMax**
 
 gprlearn/
   gprMax/
@@ -90,7 +89,7 @@ gprlearn/
   individual-pipeline.sh
   pipeline-caffe.sh
 
-4. DATA GENERATION PIPELINE
+### 4. DATA GENERATION PIPELINE
 
 Within the Linux shell run the pipeline with the command:
 
@@ -148,7 +147,7 @@ process - as can be seen in the bash shell script itself. Essentially,
 
 The pipeline-gen-new.sh script ends at this point.
 
-5. CLASSIFICATION PIPELINE
+### 5. CLASSIFICATION PIPELINE
 
 Within the Linux shell run the pipeline with the command:
 
