@@ -1,7 +1,4 @@
-
-
-                    GprLearn Overview
-                    =================
+## GprLearn Overview
 
 
 24 May 2016
@@ -12,8 +9,6 @@ Ken Williams
 
 This file: README.txt
 REPO: https://bitbucket.org/dgorissen/gprlearn
-
-==================================================================================
 
 1. INTRODUCTION
 
@@ -29,8 +24,8 @@ are then placed at random within the soil model.
 The ultimate purpose of this project is to prepare a classification system through 
 creating realistic training data so as to train a convolution neural network to be 
 able to automatically recognise and locate landmine signatures in simulated B-scan 
-gpr images, to a high degree of accuracy. Real UAV collected gpr data will then be
-drip fed into the net to test it's real world applicability.
+gpr images. Real UAV collected gpr data will then be used to test it's
+real world applicability.
 
 The files in this repository are described below. The framework was developed and
 runs on Ubuntu Linux.
@@ -219,7 +214,3 @@ process. Essentially,
               loss curves are plotted along with a ROC curve and confusion 
               matrix - these can be saved if the user choses so. For Localising 
               the landmine signature refer to localisation.py.
-
-
-
-==================================================================================
