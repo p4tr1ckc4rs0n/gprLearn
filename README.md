@@ -2,9 +2,9 @@
 
 24 May 2016
 
-Patrick Carson
-Max Jacobs
-Ken Williams
+Patrick Carson \n
+Max Jacobs \n
+Ken Williams \n
 
 This file: README.txt
 REPO: https://bitbucket.org/dgorissen/gprlearn
